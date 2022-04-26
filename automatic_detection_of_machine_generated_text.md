@@ -14,7 +14,10 @@ Properties of an Ideal Detector:
 4. Interpretable: Detector decisions can be understood by Humans
 5. Robust: Can handle adversarial examples
 
+## Text Generative Models aka TGMs  
+TGMs are usually a Neural Language Model (NLM) trained to model the probability of token given the previous tokens in a text sequence  
 
+$p_{\theta}\(x_t|x_1,...,x_i,...,x_{t-1})$ where tokens coming from a vocabulary $x_i \in V$. If $\b(x) = \(x_1,...,x_{|X|})$ represents a text sequence, then $p_{\theta} = \prod_{t=1}{|X|}\ p_{\theta}\(x_t|x_1,...,x_i,...,x_{t-1})$
 
 
 ### References:  
