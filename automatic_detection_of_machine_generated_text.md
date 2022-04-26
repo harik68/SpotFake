@@ -19,6 +19,7 @@ TGMs are usually a Neural Language Model (NLM) trained to model the probability 
 
 $p_{\theta}\(x_t|x_1,...,x_i,...,x_{t-1})$ where tokens coming from a vocabulary $x_i \in V$. If $\b(x) = \(x_1,...,x_{|X|})$ represents a text sequence, then $p_{\theta} = \prod_{t=1}{|X|}\ p_{\theta}\(x_t|x_1,...,x_i,...,x_{t-1})$
 
+If $p*(x)$ denotes a the reference distribution and $D$ denotes a finite set of text sequences from $p*$, TGM estimates parameters $\theta$ by minimizing the objective function
 
 ### References:  
 1. 
